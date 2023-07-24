@@ -4,7 +4,6 @@
  * quick_sort - quick sorting
  * @array: array
  * @size: size
-
 */
 void quick_sort(int *array, size_t size)
 {
@@ -39,6 +38,7 @@ void rec(int *array, int lower, int higher, size_t size)
  * @lower: low
  * @higher: high
  * @size: size
+ * Return: num
  */
 int Lomuto(int *array, int lower, int higher, size_t size)
 {
